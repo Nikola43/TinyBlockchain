@@ -8,11 +8,11 @@ public class Main {
         //add our blocks to the blockchain ArrayList:
         TinyBlockchain blockchain = new TinyBlockchain();
 
-        blockchain.addBlock("Paulo 1");
+        blockchain.addBlock("0.7");
 
-        blockchain.addBlock("Paulo 2");
+        blockchain.addBlock("3.4");
 
-        blockchain.addBlock("Paulo 3");
+        blockchain.addBlock("5.5");
 
         blockchain.printBlockList();
 

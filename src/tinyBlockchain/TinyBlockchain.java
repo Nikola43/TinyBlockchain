@@ -10,7 +10,7 @@ public class TinyBlockchain {
     public TinyBlockchain()
     {
         blockchain = new ArrayList<>();
-        difficulty = 1;
+        difficulty = 5;
         blockchain.add(new Block("Genesis Block", "0"));
     }
 
@@ -51,7 +51,6 @@ public class TinyBlockchain {
                 System.out.println("This block hasn't been mined");
                 return false;
             }
-
         }
         return true;
     }
